@@ -8,7 +8,7 @@
 		$input = $_GET["input"];
 		$userid = $_GET["userid"];
 		$experiment = $_GET["experiment"];
-		$file = "~/data/".$experiment."/".$userid.'.txt';
+		$file = "/home/ubuntu/data-logging-ec2-startup/data/".$experiment."/".$userid.'.txt';
 		// The new person to add to the file
 		$data = $input."\n";
 		// Write the contents to the file, 
