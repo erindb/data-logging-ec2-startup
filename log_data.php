@@ -4,7 +4,6 @@
 	</head>
 	<body>
 		<?php
-	    header("Access-Control-Allow-Origin: *");
 		$input = $_GET["input"];
 		$userid = $_GET["userid"];
 		$experiment = $_GET["experiment"];
